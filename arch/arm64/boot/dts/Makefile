@@ -2,8 +2,8 @@
 dtb-y += exynos/dtbo/exynos7885.dtb
 
 dtb-$(CONFIG_MACH_EXYNOS7885_XCOVER4S_OPEN) := \
-	exynos7884-xcover4s_eur_open_00.dtbo \
-        exynos7884-xcover4s_eur_open_02.dtbo
+	exynos/dtbo/exynos7884-xcover4s_eur_open_00.dtbo \
+        exynos/dtbo/exynos7884-xcover4s_eur_open_02.dtbo
 
 targets += dtbs
 DTB_LIST  := $(dtb-y) $(dtbo-y)
